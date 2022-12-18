@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" centerShape="false" prefHeight="429.0" prefWidth="500.0" styleClass="anchorPlane" stylesheets="@CSS.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bbfx.CinmaTheaterController">
+   <children>
+      <Label alignment="CENTER" layoutX="40.0" prefHeight="70.0" prefWidth="392.0" text="WELCOME " textAlignment="CENTER" textFill="#1f4b3c">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="51.0" />
+         </font>
+      </Label>
+      <Button layoutX="347.0" layoutY="354.0" mnemonicParsing="false" onAction="#newWindow" prefHeight="47.0" prefWidth="110.0" styleClass="Button" stylesheets="@CSS.css" text="next" textFill="#24a48a">
+         <font>
+            <Font name="Book Antiqua Bold" size="25.0" />
+         </font>
+      </Button>
+      <DatePicker layoutX="224.0" layoutY="202.0" prefHeight="34.0" prefWidth="150.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </DatePicker>
+      <Label alignment="CENTER" layoutX="80.0" layoutY="47.0" prefHeight="81.0" prefWidth="288.0" text="Cinema OS theater" textAlignment="CENTER" textFill="#1f4b3c" underline="true" wrapText="true">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="61.0" layoutY="141.0" prefHeight="43.0" prefWidth="110.0" text="Film:" textFill="#1c463d">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="filmBox" layoutX="224.0" layoutY="149.0" prefHeight="34.0" prefWidth="150.0" promptText="Films" styleClass="comboBox">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <Label alignment="CENTER" layoutX="80.0" layoutY="202.0" prefHeight="43.0" prefWidth="72.0" text="Date:" textFill="#1c463d">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="timeBox" layoutX="224.0" layoutY="265.0" prefHeight="34.0" prefWidth="150.0" promptText="Time" styleClass="comboBox">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <Label alignment="CENTER" layoutX="80.0" layoutY="264.0" prefHeight="43.0" prefWidth="72.0" text="Time:" textFill="#1c463d">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="354.0" mnemonicParsing="false" onAction="#Exit" prefHeight="47.0" prefWidth="110.0" styleClass="Button" text="EXIT" textFill="#24a48a">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+
+.Button {
+    -fx-background-color: #006666 ;
+    -fx-text-fill:#ffffff;
+}
+
+.comboBox{
+    -fx-background-color: #e2e6e6;
+}
+
+.anchorPlane{
+    -fx-background-color:#b3b3b3 ;
+}
+
+.dialog{
+    -fx-background-color: #cccccc;
+}
+
+.dialog:header *.header-panel{
+    -fx-background-color: #cccccc;
+}
+ 
+.dialog > *.content.label{
+    -fx-font-size: 20px;
+    -fx-font-color:#ffffff;
+}
+
+.dialog:header *.header-panel *,label{
+    -fx-font-size :20px;
+    -fx-font-color:#ffffff;
+}
+
+.dialog > *.button-bar *.button {
+    -fx-background-color: #006666;
+    -fx-text-fill: white;
+}
